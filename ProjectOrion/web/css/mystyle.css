@@ -1,0 +1,299 @@
+@font-face {
+    src:url("fonts/Lato-Thin.ttf");
+    font-family: lato-thin;
+}
+
+@font-face {
+    src:url("fonts/Lato-Light.ttf");
+    font-family: lato-light;
+}
+
+@font-face {
+    src:url("fonts/Lato-Bold.ttf");
+    font-family: lato-bold;
+}
+
+@font-face {
+    src:url("fonts/Lato-Thin.ttf");
+    font-family: lato-thin;
+}
+
+* {
+    font-size: 20px;
+    font-family: lato-light, "Open Sans", sans-serif;
+    color:#231f1f;
+}
+
+body {
+    background-color: #e6e6e6;
+    margin: 0px;
+}
+
+#site {
+    border: 1px solid #e6e6e6;
+    margin-left: 15% ;
+    width: 1040px;
+    min-height: 800px;
+    padding: 24px 24px 0;
+    margin-bottom: 24px;
+    background-color: #fff;
+    position: absolute;
+}
+
+#top-nav {
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    position: relative;
+    float: left;
+    border-bottom: 1px solid black;
+    box-shadow: -1px 2px 1px 1px #8e8888;
+    margin-bottom: 3px;
+}
+
+#header {
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+#primary{
+    border: 1px solid #e6e6e6;
+    margin: 0px 1%;
+    padding: 30px 5% 3% 3%;
+    width: 55%;
+    height: 90%;
+    position: relative;
+    float: left;
+}
+
+#secondary {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+    margin-left: 3%;
+    box-shadow: 0px 0px 1px 1px #c5baba;
+}
+
+#result {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form {
+    width:  500px;
+    background-color: #ffffff;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+
+button, input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-right: 0%;
+    margin-bottom: 7px;
+    padding: 5px 10px;
+}
+
+input[type=checkbox]
+{
+    /* 1.75Size Checkboxes */
+    -ms-transform: scale(1.75); /* IE */
+    -moz-transform: scale(1.75); /* FF */
+    -webkit-transform: scale(1.75); /* Safari and Chrome */
+    -o-transform: scale(1.75); /* Opera */
+    padding: 10px;
+}
+
+h1 {
+    font-family: lato-thin;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+label {
+
+}
+
+textarea {
+    width: 95%;
+}
+
+.required {
+    color: red;
+}
+
+.alert {
+    border: 1px solid;
+    border-left-width: 5px;
+    font-family: lato-bold;
+    padding: 5px 5px 5px 10px;
+}
+
+.error {
+    border-color: #b85f56;
+}
+
+.notfound{
+    border-color: #4d65a4;
+}
+.success {
+    border-color:  #84ac50;
+}
+
+input.padding10px{
+    padding: 10px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination{
+    margin-top: 20px;
+}
+
+.images {
+    border: 1px solid #e6e6e6;
+    padding: 4px;
+    width: 100%;
+}
+
+#images{
+    width: 100%;
+}
+
+.readonly{
+    background-color: #eaeaea;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    position:  relative;
+    float:  left;
+}
+
+.li {
+    list-style-type: none;
+    float: right;
+    line-height: 65px;
+    padding: 10px;
+}
+
+.li a{
+    font-size: 20px;
+    font-family:  lato-bold;
+}
+
+ul.main-nav {
+    position: relative;
+    float: left;
+    margin-left: 350px;
+}
+
+.li:hover a {
+    border-color: #e8e4e3;
+    background: #fff;
+}
+
+#otren {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    margin: 300px;
+    color: white;
+}
+
+#goi {
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+}
+
+.error {
+    width: 300px;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    float: left;
+}
+
+#goiResult{
+}
